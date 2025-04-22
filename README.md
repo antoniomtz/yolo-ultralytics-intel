@@ -4,6 +4,13 @@ Script that showcases Ultralytics package using OpenVINO on CPU,GPU and NPU
 
 ## Instructions
 
+### Step 0:
+
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+
 ### Step 1:
 
 ```

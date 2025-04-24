@@ -1,9 +1,6 @@
 # Use DLStreamer as base image with GPU and NPU support
 FROM intel/dlstreamer:2025.0.1.3-dev-ubuntu22
-
 user root
-
-
 WORKDIR /app
 
 # Install system dependencies required by OpenCV, Qt, and X11 forwarding

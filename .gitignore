@@ -1,0 +1,4 @@
+*.pt
+yolo11n_openvino_model/
+yolov8n_openvino_model
+venv/

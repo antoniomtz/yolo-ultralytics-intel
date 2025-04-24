@@ -7,11 +7,11 @@ from ultralytics import YOLO
 
 def parse_arguments():
     """Parse command line arguments."""
-    parser = argparse.ArgumentParser(description="YOLOv11 webcam detection with OpenVINO")
+    parser = argparse.ArgumentParser(description="YOLO webcam detection with OpenVINO")
     parser.add_argument(
         "--model", 
         type=str, 
-        default="yolo11s.pt", 
+        default="yolo11n.pt", 
         help="Model path or name"
     )
     parser.add_argument(
@@ -116,7 +116,7 @@ def main():
         )
         
         # Display the frame
-        cv2.imshow("YOLOv11 OpenVINO Detection", annotated_frame)
+        cv2.imshow("OpenVINO Detection", annotated_frame)
         
         # Check for exit key
         if cv2.waitKey(1) & 0xFF == ord('q'):

@@ -11,7 +11,7 @@ def parse_arguments():
     parser.add_argument(
         "--model", 
         type=str, 
-        default="yolov11s.pt", 
+        default="yolo11s.pt", 
         help="Model path or name"
     )
     parser.add_argument(
